@@ -166,11 +166,11 @@
     "furl" : "bootstrap_default_channel_layout"
   }, {
     "id" : "8b195b8c-856b-4d95-af1d-36b70dfaf93a",
-    "date" : "2018-07-03T13:28Z",
+    "date" : "2018-07-03T22:18Z",
     "folder" : "5867a812-e81a-4ce1-adc1-749dd18a77c0",
     "postType" : "PT-REGION",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(\"Bootstrap\", true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar html = template(folders);\nhtml;",
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar html = template(folders);\nhtml;",
       "DESCRIPTION" : "Bootstrap Navigation Region",
       "TITLE" : "BOOTSTRAP_NAV_REGION",
       "HTML" : "        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n      <a class=\"navbar-brand\" href=\"#\">\n         <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n   <!-- <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> -->\n    Bootstrap\n  </a>\n\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n          {{#each this}}\n                            {{#if this.current}}\n                                <li  class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                            {{else}}\n                                <li  class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                            {{/if}}\n                        {{/each}} \n                        \n    </ul>\n  </div>\n</nav>"
@@ -261,16 +261,6 @@
         "summary" : true,
         "required" : true
       },
-      "HTML" : {
-        "id" : "8fa416d4-4468-4ecb-a63b-24dbec574b58",
-        "label" : "HTML",
-        "description" : "HTML",
-        "ordinal" : 4,
-        "widget" : "Ace Editor - HTML",
-        "title" : false,
-        "summary" : false,
-        "required" : true
-      },
       "TITLE" : {
         "id" : "bdcd9cc5-c0f3-4f12-963b-b97716b0bdc1",
         "label" : "Title",
@@ -278,6 +268,16 @@
         "ordinal" : 1,
         "widget" : "Text",
         "title" : true,
+        "summary" : false,
+        "required" : true
+      },
+      "HTML" : {
+        "id" : "8fa416d4-4468-4ecb-a63b-24dbec574b58",
+        "label" : "HTML",
+        "description" : "HTML",
+        "ordinal" : 4,
+        "widget" : "Ace Editor - HTML",
+        "title" : false,
         "summary" : false,
         "required" : true
       }
@@ -411,16 +411,6 @@
         "summary" : false,
         "required" : true
       },
-      "HTML" : {
-        "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
-        "label" : "HTML",
-        "description" : "HTML",
-        "ordinal" : 5,
-        "widget" : "Ace Editor - HTML",
-        "title" : false,
-        "summary" : false,
-        "required" : true
-      },
       "TITLE" : {
         "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
         "label" : "Title",
@@ -428,6 +418,16 @@
         "ordinal" : 1,
         "widget" : "Text",
         "title" : true,
+        "summary" : false,
+        "required" : true
+      },
+      "HTML" : {
+        "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
+        "label" : "HTML",
+        "description" : "HTML",
+        "ordinal" : 5,
+        "widget" : "Ace Editor - HTML",
+        "title" : false,
         "summary" : false,
         "required" : true
       }
@@ -441,16 +441,6 @@
     "label" : "Article",
     "description" : "Article Post Type",
     "fields" : {
-      "VIDEO" : {
-        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
-        "label" : "Video URL",
-        "description" : "Video URL",
-        "ordinal" : 4,
-        "widget" : "Text",
-        "title" : false,
-        "summary" : false,
-        "required" : false
-      },
       "RELATION" : {
         "id" : "4c39181b-732a-4470-947e-26cc2cda1e45",
         "label" : "Relation",
@@ -504,6 +494,16 @@
         "title" : false,
         "summary" : true,
         "required" : true
+      },
+      "VIDEO" : {
+        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
+        "label" : "Video URL",
+        "description" : "Video URL",
+        "ordinal" : 4,
+        "widget" : "Text",
+        "title" : false,
+        "summary" : false,
+        "required" : false
       },
       "TITLE" : {
         "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
