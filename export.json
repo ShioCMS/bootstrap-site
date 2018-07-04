@@ -2,7 +2,7 @@
   "sites" : [ {
     "id" : "ba08097f-d6b4-45f3-a64e-25bec707bdef",
     "name" : "Bootstrap",
-    "date" : "2018-07-03T14:51Z",
+    "date" : "2018-07-04T01:46Z",
     "description" : "Bootstrap Site",
     "url" : "https://getbootstrap.com/",
     "postTypeLayout" : "{\"PT-ARTICLE\" :  \"BOOTSTRAP_ARTICLE_LAYOUT\"}",
@@ -22,49 +22,49 @@
     "date" : "2018-07-03T13:00Z",
     "name" : "Themes",
     "parentFolder" : null,
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "themes"
   }, {
     "id" : "9fdef89a-aef2-4ad9-b513-804b89809e3e",
     "date" : "2018-07-03T13:00Z",
     "name" : "Bootstrap",
     "parentFolder" : "51d87bdf-7fd9-40af-9884-4ed7d5c60bc3",
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap"
   }, {
     "id" : "d26ec15f-70db-48ae-802c-40ff8b58b6c7",
     "date" : "2018-07-03T13:00Z",
     "name" : "Layouts",
     "parentFolder" : "9fdef89a-aef2-4ad9-b513-804b89809e3e",
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "layouts"
   }, {
     "id" : "5867a812-e81a-4ce1-adc1-749dd18a77c0",
     "date" : "2018-07-03T13:00Z",
     "name" : "Regions",
     "parentFolder" : "9fdef89a-aef2-4ad9-b513-804b89809e3e",
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "regions"
   }, {
     "id" : "6b63fbee-e016-48d4-b471-c09070fb55d1",
     "date" : "2018-07-03T13:01Z",
     "name" : "Appearance",
     "parentFolder" : "9fdef89a-aef2-4ad9-b513-804b89809e3e",
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "appearance"
   }, {
     "id" : "e0aff446-99db-4ca1-80d6-62cf1321640f",
     "date" : "2018-07-03T13:11Z",
     "name" : "Assets",
     "parentFolder" : null,
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "assets"
   }, {
     "id" : "3e56fb41-abf5-49e4-8d4b-f36306a54fb6",
     "date" : "2018-07-03T13:11Z",
     "name" : "brand",
     "parentFolder" : "e0aff446-99db-4ca1-80d6-62cf1321640f",
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "brand"
   } ],
   "posts" : [ {
@@ -85,18 +85,18 @@
     "folder" : "9fafa06c-f89b-4854-a0e4-09e48cd75d62",
     "postType" : "PT-ARTICLE",
     "fields" : {
+      "VIDEO" : null,
+      "DESCRIPTION" : "This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.",
       "RELATION" : {
         "id" : "fe756e56-2d3d-4fa4-8d4c-5fe3ba53c7d2",
         "name" : null,
         "shSubPosts" : [ ]
       },
-      "VIDEO" : null,
-      "DESCRIPTION" : "This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.",
       "TITLE" : "Sample blog post",
       "TEXT" : "<p>Cum sociis natoque penatibus et magnis <a href=\"#\">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>\n<blockquote>\n<p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n</blockquote>\n<p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>\n<h2>Heading</h2>\n<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>\n<h3>Sub-heading</h3>\n<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>\n<pre><code>Example code block</code></pre>\n<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>\n<h3>Sub-heading</h3>\n<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\n<ul>\n<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>\n<li>Donec id elit non mi porta gravida at eget metus.</li>\n<li>Nulla vitae elit libero, a pharetra augue.</li>\n</ul>\n<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>\n<ol>\n<li>Vestibulum id ligula porta felis euismod semper.</li>\n<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>\n<li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>\n</ol>\n<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>\n<!-- /.blog-post -->\n<div class=\"blog-post\">&nbsp;</div>",
       "FILE" : null
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "sample-blog-post"
   }, {
     "id" : "38c80a3f-c7f1-4b51-83f5-6ec267d553d4",
@@ -104,18 +104,18 @@
     "folder" : "9fafa06c-f89b-4854-a0e4-09e48cd75d62",
     "postType" : "PT-ARTICLE",
     "fields" : {
+      "VIDEO" : null,
+      "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
       "RELATION" : {
         "id" : "87be5ff6-b4cb-4476-8ff4-62293ac347a4",
         "name" : null,
         "shSubPosts" : [ ]
       },
-      "VIDEO" : null,
-      "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
       "TITLE" : "New feature",
       "TEXT" : "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\n<ul>\n<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>\n<li>Donec id elit non mi porta gravida at eget metus.</li>\n<li>Nulla vitae elit libero, a pharetra augue.</li>\n</ul>\n<p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>\n<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>",
       "FILE" : null
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "new-feature"
   }, {
     "id" : "241e07e7-ed62-49e6-95f1-ebeef91901f6",
@@ -124,32 +124,18 @@
     "postType" : "PT-ARTICLE",
     "fields" : {
       "VIDEO" : null,
+      "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
       "RELATION" : {
         "id" : "1a1a8b8f-fe42-4b69-8c52-a4b9481b2f9f",
         "name" : null,
         "shSubPosts" : [ ]
       },
-      "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
       "TEXT" : "<p>Cum sociis natoque penatibus et magnis <a href=\"#\">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>\n<blockquote>\n<p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n</blockquote>\n<p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>\n<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>",
       "TITLE" : "Another blog post",
       "FILE" : null
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "another-blog-post"
-  }, {
-    "id" : "84ba8f3f-e150-4396-a932-99d9fc9b5864",
-    "date" : "2018-07-03T15:07Z",
-    "folder" : "d26ec15f-70db-48ae-802c-40ff8b58b6c7",
-    "postType" : "PT-PAGE-LAYOUT",
-    "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar objects ={\n    \"title\": shContent.system.title,\n    \"description\": shContent.DESCRIPTION,\n    \"text\": shContent.TEXT,\n    \"theme\": shContent.theme\n    \n}\nvar html = template(objects);\n\nhtml;",
-      "DESCRIPTION" : "Bootstrap Article Layout",
-      "THEME" : "c6e17e08-a10f-462e-88c0-1d30c043a276",
-      "TITLE" : "BOOTSTRAP_ARTICLE_LAYOUT",
-      "HTML" : "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n    <link href=\"https://getbootstrap.com/docs/4.1/examples/blog/blog.css\" rel=\"stylesheet\">\n    <title>Hello, world!</title>\n  </head>\n  <body>\n    <div sh-region=\"BOOTSTRAP_NAV_REGION\"> </div>\n    <div class=\"blog-post\" style=\"margin:20px\">\n        <h2 class=\"blog-post-title\">{{title}}</h2>\n        <p>{{{description}}}</p>\n        <hr>\n        {{{text}}}\n    </div>\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>"
-    },
-    "owner" : null,
-    "furl" : "bootstrap_article_layout"
   }, {
     "id" : "4623e292-785d-4e5e-b666-24308b08f1af",
     "date" : "2018-07-03T14:52Z",
@@ -162,20 +148,34 @@
       "HTML" : "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n\n    <title>Hello, world!</title>\n  </head>\n  <body>\n    <div sh-region=\"BOOTSTRAP_NAV_REGION\"> </div>\n    <div sh-region=\"BOOTSTRAP_CONTENT_LIST_REGION\" style=\"margin:20px\"></div>\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>",
       "TITLE" : "BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT"
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap_default_channel_layout"
   }, {
+    "id" : "84ba8f3f-e150-4396-a932-99d9fc9b5864",
+    "date" : "2018-07-03T15:07Z",
+    "folder" : "d26ec15f-70db-48ae-802c-40ff8b58b6c7",
+    "postType" : "PT-PAGE-LAYOUT",
+    "fields" : {
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar objects ={\n    \"title\": shContent.system.title,\n    \"description\": shContent.DESCRIPTION,\n    \"text\": shContent.TEXT,\n    \"theme\": shContent.theme\n    \n}\nvar html = template(objects);\n\nhtml;",
+      "DESCRIPTION" : "Bootstrap Article Layout",
+      "THEME" : "c6e17e08-a10f-462e-88c0-1d30c043a276",
+      "TITLE" : "BOOTSTRAP_ARTICLE_LAYOUT",
+      "HTML" : "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n    <link href=\"https://getbootstrap.com/docs/4.1/examples/blog/blog.css\" rel=\"stylesheet\">\n    <title>Hello, world!</title>\n  </head>\n  <body>\n    <div sh-region=\"BOOTSTRAP_NAV_REGION\"> </div>\n    <div class=\"blog-post\" style=\"margin:20px\">\n        <h2 class=\"blog-post-title\">{{title}}</h2>\n        <p>{{{description}}}</p>\n        <hr>\n        {{{text}}}\n    </div>\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>"
+    },
+    "owner" : "admin",
+    "furl" : "bootstrap_article_layout"
+  }, {
     "id" : "8b195b8c-856b-4d95-af1d-36b70dfaf93a",
-    "date" : "2018-07-03T22:18Z",
+    "date" : "2018-07-04T01:48Z",
     "folder" : "5867a812-e81a-4ce1-adc1-749dd18a77c0",
     "postType" : "PT-REGION",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar html = template(folders);\nhtml;",
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
       "DESCRIPTION" : "Bootstrap Navigation Region",
       "TITLE" : "BOOTSTRAP_NAV_REGION",
-      "HTML" : "        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n      <a class=\"navbar-brand\" href=\"#\">\n         <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n   <!-- <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> -->\n    Bootstrap\n  </a>\n\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n          {{#each this}}\n                            {{#if this.current}}\n                                <li  class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                            {{else}}\n                                <li  class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                            {{/if}}\n                        {{/each}} \n                        \n    </ul>\n  </div>\n</nav>"
+      "HTML" : "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\"> <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n        <!-- <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> -->{{this.siteName}} </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav mr-auto\"> \n            {{#each this.folders}} \n                {{#if this.current}}\n                    <li class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{else}}\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{/if}}\n            {{/each}}\n        </ul>\n    </div>\n</nav>"
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap_nav_region"
   }, {
     "id" : "b2ff0c70-79c9-48e9-8743-cd83014e3e3c",
@@ -188,7 +188,7 @@
       "TITLE" : "BOOTSTRAP_CONTENT_LIST_REGION",
       "HTML" : "<div class=\"card-columns\">\n {{#each this.posts}}    \n  <div class=\"card\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{this.title}}</h5>\n      <p class=\"card-text\">{{this.description}}</p>\n       <a href=\"{{this.link}}\" class=\"btn btn-primary\">Read More</a>\n    </div>\n  </div>\n  {{/each}}\n</div>"
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap_content_list_region"
   }, {
     "id" : "c6e17e08-a10f-462e-88c0-1d30c043a276",
@@ -201,7 +201,7 @@
       "DESCRIPTION" : "Bootstrap Theme",
       "TITLE" : "Bootstrap Theme"
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap-theme"
   }, {
     "id" : "7290e078-ef84-4aed-811b-8b491799c6e0",
@@ -211,7 +211,7 @@
     "fields" : {
       "FILE" : "bootstrap-logo.jpg"
     },
-    "owner" : null,
+    "owner" : "admin",
     "furl" : "bootstrap-logo-jpg"
   } ],
   "postTypes" : [ {
@@ -227,9 +227,9 @@
         "description" : "File Path",
         "ordinal" : 1,
         "widget" : "File",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       }
     },
     "owner" : "admin",
@@ -247,9 +247,9 @@
         "description" : "Javascript",
         "ordinal" : 3,
         "widget" : "Ace Editor - Javascript",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "DESCRIPTION" : {
         "id" : "6f2e271c-8d1a-4748-9002-53c1dd08b2fb",
@@ -257,9 +257,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
+        "required" : true,
         "title" : false,
-        "summary" : true,
-        "required" : true
+        "summary" : true
       },
       "TITLE" : {
         "id" : "bdcd9cc5-c0f3-4f12-963b-b97716b0bdc1",
@@ -267,9 +267,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "HTML" : {
         "id" : "8fa416d4-4468-4ecb-a63b-24dbec574b58",
@@ -277,9 +277,9 @@
         "description" : "HTML",
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       }
     },
     "owner" : "admin",
@@ -297,9 +297,9 @@
         "description" : "Javascript",
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "CSS" : {
         "id" : "989ff943-7d49-4afa-be3d-851e437573ca",
@@ -307,9 +307,9 @@
         "description" : "CSS",
         "ordinal" : 3,
         "widget" : "Ace Editor - HTML",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "DESCRIPTION" : {
         "id" : "3cd69b44-f4dc-4780-b43b-8bcdec0450f5",
@@ -317,9 +317,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
+        "required" : true,
         "title" : false,
-        "summary" : true,
-        "required" : true
+        "summary" : true
       },
       "TITLE" : {
         "id" : "018df4da-1a10-4a65-8e58-0d4a9006a2a2",
@@ -327,9 +327,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       }
     },
     "owner" : "admin",
@@ -347,9 +347,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
+        "required" : true,
         "title" : false,
-        "summary" : true,
-        "required" : true
+        "summary" : true
       },
       "PAGE-LAYOUT" : {
         "id" : "da6dbfeb-34a4-4019-a09d-6b457a1120d3",
@@ -357,9 +357,9 @@
         "description" : "Page Layout",
         "ordinal" : 2,
         "widget" : "Content Select",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "TITLE" : {
         "id" : "fd63f8ae-9ff4-4ad4-bb9e-7965642a9ea8",
@@ -367,9 +367,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       }
     },
     "owner" : "admin",
@@ -387,9 +387,9 @@
         "description" : "Javascript",
         "ordinal" : 4,
         "widget" : "Ace Editor - Javascript",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "DESCRIPTION" : {
         "id" : "db01cf5b-836f-49c7-9e7a-19bcac221978",
@@ -397,9 +397,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text",
+        "required" : true,
         "title" : false,
-        "summary" : true,
-        "required" : true
+        "summary" : true
       },
       "THEME" : {
         "id" : "a5d27dcd-1372-43c5-950c-e6cbee1807da",
@@ -407,9 +407,9 @@
         "description" : "Theme",
         "ordinal" : 3,
         "widget" : "Content Select",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "TITLE" : {
         "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
@@ -417,9 +417,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "HTML" : {
         "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
@@ -427,9 +427,9 @@
         "description" : "HTML",
         "ordinal" : 5,
         "widget" : "Ace Editor - HTML",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       }
     },
     "owner" : "admin",
@@ -459,15 +459,15 @@
                 "description" : "Text of Relation 2nd",
                 "ordinal" : 9,
                 "widget" : "Text",
+                "required" : true,
                 "title" : true,
-                "summary" : false,
-                "required" : true
+                "summary" : false
               }
             },
             "widget" : "Relator",
+            "required" : true,
             "title" : false,
-            "summary" : false,
-            "required" : true
+            "summary" : false
           },
           "TEXT_RELATION" : {
             "id" : "6de05406-c3cf-4657-937a-fcf2072dd4e7",
@@ -475,15 +475,15 @@
             "description" : "Text of Relation",
             "ordinal" : 7,
             "widget" : "Text",
+            "required" : true,
             "title" : true,
-            "summary" : false,
-            "required" : true
+            "summary" : false
           }
         },
         "widget" : "Relator",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "DESCRIPTION" : {
         "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
@@ -491,9 +491,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
+        "required" : true,
         "title" : false,
-        "summary" : true,
-        "required" : true
+        "summary" : true
       },
       "VIDEO" : {
         "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
@@ -501,9 +501,9 @@
         "description" : "Video URL",
         "ordinal" : 4,
         "widget" : "Text",
+        "required" : false,
         "title" : false,
-        "summary" : false,
-        "required" : false
+        "summary" : false
       },
       "TITLE" : {
         "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
@@ -511,9 +511,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
+        "required" : true,
         "title" : true,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "TEXT" : {
         "id" : "7fb41aed-5fe3-49bc-8ae8-e500173a0279",
@@ -521,9 +521,9 @@
         "description" : "Text",
         "ordinal" : 5,
         "widget" : "HTML Editor",
+        "required" : true,
         "title" : false,
-        "summary" : false,
-        "required" : true
+        "summary" : false
       },
       "FILE" : {
         "id" : "0015d0c2-9c64-4032-b3c3-424a07d3614d",
@@ -531,9 +531,9 @@
         "description" : "File Path",
         "ordinal" : 3,
         "widget" : "File",
+        "required" : false,
         "title" : false,
-        "summary" : false,
-        "required" : false
+        "summary" : false
       }
     },
     "owner" : "admin",
