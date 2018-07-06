@@ -166,14 +166,14 @@
     "furl" : "bootstrap_article_layout"
   }, {
     "id" : "8b195b8c-856b-4d95-af1d-36b70dfaf93a",
-    "date" : "2018-07-04T01:48Z",
+    "date" : "2018-07-06T13:13Z",
     "folder" : "5867a812-e81a-4ce1-adc1-749dd18a77c0",
     "postType" : "PT-REGION",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nHandlebars.registerHelper('file_url', function(object) {\n  return new Handlebars.SafeString(\n    \"/store/file_source/\" + shContent.site.system.title + object\n  );\n});\n\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
       "DESCRIPTION" : "Bootstrap Navigation Region",
       "TITLE" : "BOOTSTRAP_NAV_REGION",
-      "HTML" : "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\"> <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n        <!-- <img src=\"/store/file_source/Bootstrap/Assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> -->{{this.siteName}} </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav mr-auto\"> \n            {{#each this.folders}} \n                {{#if this.current}}\n                    <li class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{else}}\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{/if}}\n            {{/each}}\n        </ul>\n    </div>\n</nav>"
+      "HTML" : "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\"> <img src=\"{{file_url '/Assets/brand/bootstrap-logo.jpg'}}\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">{{this.siteName}} </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav mr-auto\"> \n            {{#each this.folders}} \n                {{#if this.current}}\n                    <li class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}  {{#noop}}alexandre{{/noop}}</a></li>\n                {{else}}\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{/if}}\n            {{/each}}\n            \n         \n        </ul>\n    </div>\n</nav>"
     },
     "owner" : "admin",
     "furl" : "bootstrap_nav_region"
@@ -228,8 +228,8 @@
         "ordinal" : 1,
         "widget" : "File",
         "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : true
       }
     },
     "owner" : "admin",
@@ -248,8 +248,8 @@
         "ordinal" : 3,
         "widget" : "Ace Editor - Javascript",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "DESCRIPTION" : {
         "id" : "6f2e271c-8d1a-4748-9002-53c1dd08b2fb",
@@ -258,8 +258,8 @@
         "ordinal" : 2,
         "widget" : "Text Area",
         "required" : true,
-        "title" : false,
-        "summary" : true
+        "summary" : true,
+        "title" : false
       },
       "TITLE" : {
         "id" : "bdcd9cc5-c0f3-4f12-963b-b97716b0bdc1",
@@ -268,8 +268,8 @@
         "ordinal" : 1,
         "widget" : "Text",
         "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : true
       },
       "HTML" : {
         "id" : "8fa416d4-4468-4ecb-a63b-24dbec574b58",
@@ -278,8 +278,8 @@
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       }
     },
     "owner" : "admin",
@@ -298,8 +298,8 @@
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "CSS" : {
         "id" : "989ff943-7d49-4afa-be3d-851e437573ca",
@@ -308,8 +308,8 @@
         "ordinal" : 3,
         "widget" : "Ace Editor - HTML",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "DESCRIPTION" : {
         "id" : "3cd69b44-f4dc-4780-b43b-8bcdec0450f5",
@@ -318,8 +318,8 @@
         "ordinal" : 2,
         "widget" : "Text Area",
         "required" : true,
-        "title" : false,
-        "summary" : true
+        "summary" : true,
+        "title" : false
       },
       "TITLE" : {
         "id" : "018df4da-1a10-4a65-8e58-0d4a9006a2a2",
@@ -328,8 +328,8 @@
         "ordinal" : 1,
         "widget" : "Text",
         "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : true
       }
     },
     "owner" : "admin",
@@ -348,8 +348,8 @@
         "ordinal" : 2,
         "widget" : "Text Area",
         "required" : true,
-        "title" : false,
-        "summary" : true
+        "summary" : true,
+        "title" : false
       },
       "PAGE-LAYOUT" : {
         "id" : "da6dbfeb-34a4-4019-a09d-6b457a1120d3",
@@ -358,8 +358,8 @@
         "ordinal" : 2,
         "widget" : "Content Select",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "TITLE" : {
         "id" : "fd63f8ae-9ff4-4ad4-bb9e-7965642a9ea8",
@@ -368,8 +368,8 @@
         "ordinal" : 1,
         "widget" : "Text",
         "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : true
       }
     },
     "owner" : "admin",
@@ -388,8 +388,8 @@
         "ordinal" : 4,
         "widget" : "Ace Editor - Javascript",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "DESCRIPTION" : {
         "id" : "db01cf5b-836f-49c7-9e7a-19bcac221978",
@@ -398,8 +398,8 @@
         "ordinal" : 2,
         "widget" : "Text",
         "required" : true,
-        "title" : false,
-        "summary" : true
+        "summary" : true,
+        "title" : false
       },
       "THEME" : {
         "id" : "a5d27dcd-1372-43c5-950c-e6cbee1807da",
@@ -408,18 +408,8 @@
         "ordinal" : 3,
         "widget" : "Content Select",
         "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "TITLE" : {
-        "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
-        "label" : "Title",
-        "description" : "Title",
-        "ordinal" : 1,
-        "widget" : "Text",
-        "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "HTML" : {
         "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
@@ -428,8 +418,18 @@
         "ordinal" : 5,
         "widget" : "Ace Editor - HTML",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
+      },
+      "TITLE" : {
+        "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
+        "label" : "Title",
+        "description" : "Title",
+        "ordinal" : 1,
+        "widget" : "Text",
+        "required" : true,
+        "summary" : false,
+        "title" : true
       }
     },
     "owner" : "admin",
@@ -460,14 +460,14 @@
                 "ordinal" : 9,
                 "widget" : "Text",
                 "required" : true,
-                "title" : true,
-                "summary" : false
+                "summary" : false,
+                "title" : true
               }
             },
             "widget" : "Relator",
             "required" : true,
-            "title" : false,
-            "summary" : false
+            "summary" : false,
+            "title" : false
           },
           "TEXT_RELATION" : {
             "id" : "6de05406-c3cf-4657-937a-fcf2072dd4e7",
@@ -476,24 +476,14 @@
             "ordinal" : 7,
             "widget" : "Text",
             "required" : true,
-            "title" : true,
-            "summary" : false
+            "summary" : false,
+            "title" : true
           }
         },
         "widget" : "Relator",
         "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "DESCRIPTION" : {
-        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
-        "label" : "Description",
-        "description" : "Description",
-        "ordinal" : 2,
-        "widget" : "Text Area",
-        "required" : true,
-        "title" : false,
-        "summary" : true
+        "summary" : false,
+        "title" : false
       },
       "VIDEO" : {
         "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
@@ -502,8 +492,18 @@
         "ordinal" : 4,
         "widget" : "Text",
         "required" : false,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
+      },
+      "DESCRIPTION" : {
+        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
+        "label" : "Description",
+        "description" : "Description",
+        "ordinal" : 2,
+        "widget" : "Text Area",
+        "required" : true,
+        "summary" : true,
+        "title" : false
       },
       "TITLE" : {
         "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
@@ -512,8 +512,8 @@
         "ordinal" : 1,
         "widget" : "Text",
         "required" : true,
-        "title" : true,
-        "summary" : false
+        "summary" : false,
+        "title" : true
       },
       "TEXT" : {
         "id" : "7fb41aed-5fe3-49bc-8ae8-e500173a0279",
@@ -522,8 +522,8 @@
         "ordinal" : 5,
         "widget" : "HTML Editor",
         "required" : true,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       },
       "FILE" : {
         "id" : "0015d0c2-9c64-4032-b3c3-424a07d3614d",
@@ -532,8 +532,8 @@
         "ordinal" : 3,
         "widget" : "File",
         "required" : false,
-        "title" : false,
-        "summary" : false
+        "summary" : false,
+        "title" : false
       }
     },
     "owner" : "admin",
