@@ -2,10 +2,10 @@
   "sites" : [ {
     "id" : "ba08097f-d6b4-45f3-a64e-25bec707bdef",
     "name" : "Bootstrap",
-    "date" : "2018-07-04T01:46Z",
+    "date" : "2018-07-06T14:19Z",
     "description" : "Bootstrap Site",
     "url" : "https://getbootstrap.com/",
-    "postTypeLayout" : "{\"PT-ARTICLE\" :  \"BOOTSTRAP_ARTICLE_LAYOUT\"}",
+    "postTypeLayout" : "{\"FOLDER\" : \"BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT\",\n\"PT-ARTICLE\" :  \"BOOTSTRAP_ARTICLE_LAYOUT\"}",
     "owner" : "admin",
     "furl" : "bootstrap",
     "rootFolders" : [ "9fafa06c-f89b-4854-a0e4-09e48cd75d62", "51d87bdf-7fd9-40af-9884-4ed7d5c60bc3", "e0aff446-99db-4ca1-80d6-62cf1321640f" ]
@@ -227,9 +227,9 @@
         "description" : "File Path",
         "ordinal" : 1,
         "widget" : "File",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       }
     },
     "owner" : "admin",
@@ -247,9 +247,9 @@
         "description" : "Javascript",
         "ordinal" : 3,
         "widget" : "Ace Editor - Javascript",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "DESCRIPTION" : {
         "id" : "6f2e271c-8d1a-4748-9002-53c1dd08b2fb",
@@ -257,9 +257,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
-        "required" : true,
+        "title" : false,
         "summary" : true,
-        "title" : false
+        "required" : true
       },
       "TITLE" : {
         "id" : "bdcd9cc5-c0f3-4f12-963b-b97716b0bdc1",
@@ -267,9 +267,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       },
       "HTML" : {
         "id" : "8fa416d4-4468-4ecb-a63b-24dbec574b58",
@@ -277,9 +277,9 @@
         "description" : "HTML",
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       }
     },
     "owner" : "admin",
@@ -297,9 +297,9 @@
         "description" : "Javascript",
         "ordinal" : 4,
         "widget" : "Ace Editor - HTML",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "CSS" : {
         "id" : "989ff943-7d49-4afa-be3d-851e437573ca",
@@ -307,9 +307,9 @@
         "description" : "CSS",
         "ordinal" : 3,
         "widget" : "Ace Editor - HTML",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "DESCRIPTION" : {
         "id" : "3cd69b44-f4dc-4780-b43b-8bcdec0450f5",
@@ -317,9 +317,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
-        "required" : true,
+        "title" : false,
         "summary" : true,
-        "title" : false
+        "required" : true
       },
       "TITLE" : {
         "id" : "018df4da-1a10-4a65-8e58-0d4a9006a2a2",
@@ -327,9 +327,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       }
     },
     "owner" : "admin",
@@ -347,9 +347,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text Area",
-        "required" : true,
+        "title" : false,
         "summary" : true,
-        "title" : false
+        "required" : true
       },
       "PAGE-LAYOUT" : {
         "id" : "da6dbfeb-34a4-4019-a09d-6b457a1120d3",
@@ -357,9 +357,9 @@
         "description" : "Page Layout",
         "ordinal" : 2,
         "widget" : "Content Select",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "TITLE" : {
         "id" : "fd63f8ae-9ff4-4ad4-bb9e-7965642a9ea8",
@@ -367,9 +367,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       }
     },
     "owner" : "admin",
@@ -387,9 +387,9 @@
         "description" : "Javascript",
         "ordinal" : 4,
         "widget" : "Ace Editor - Javascript",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "DESCRIPTION" : {
         "id" : "db01cf5b-836f-49c7-9e7a-19bcac221978",
@@ -397,9 +397,9 @@
         "description" : "Description",
         "ordinal" : 2,
         "widget" : "Text",
-        "required" : true,
+        "title" : false,
         "summary" : true,
-        "title" : false
+        "required" : true
       },
       "THEME" : {
         "id" : "a5d27dcd-1372-43c5-950c-e6cbee1807da",
@@ -407,9 +407,9 @@
         "description" : "Theme",
         "ordinal" : 3,
         "widget" : "Content Select",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "HTML" : {
         "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
@@ -417,9 +417,9 @@
         "description" : "HTML",
         "ordinal" : 5,
         "widget" : "Ace Editor - HTML",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "TITLE" : {
         "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
@@ -427,9 +427,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       }
     },
     "owner" : "admin",
@@ -441,6 +441,26 @@
     "label" : "Article",
     "description" : "Article Post Type",
     "fields" : {
+      "DESCRIPTION" : {
+        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
+        "label" : "Description",
+        "description" : "Description",
+        "ordinal" : 2,
+        "widget" : "Text Area",
+        "title" : false,
+        "summary" : true,
+        "required" : true
+      },
+      "VIDEO" : {
+        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
+        "label" : "Video URL",
+        "description" : "Video URL",
+        "ordinal" : 4,
+        "widget" : "Text",
+        "title" : false,
+        "summary" : false,
+        "required" : false
+      },
       "RELATION" : {
         "id" : "4c39181b-732a-4470-947e-26cc2cda1e45",
         "label" : "Relation",
@@ -459,15 +479,15 @@
                 "description" : "Text of Relation 2nd",
                 "ordinal" : 9,
                 "widget" : "Text",
-                "required" : true,
+                "title" : true,
                 "summary" : false,
-                "title" : true
+                "required" : true
               }
             },
             "widget" : "Relator",
-            "required" : true,
+            "title" : false,
             "summary" : false,
-            "title" : false
+            "required" : true
           },
           "TEXT_RELATION" : {
             "id" : "6de05406-c3cf-4657-937a-fcf2072dd4e7",
@@ -475,35 +495,15 @@
             "description" : "Text of Relation",
             "ordinal" : 7,
             "widget" : "Text",
-            "required" : true,
+            "title" : true,
             "summary" : false,
-            "title" : true
+            "required" : true
           }
         },
         "widget" : "Relator",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
-      },
-      "VIDEO" : {
-        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
-        "label" : "Video URL",
-        "description" : "Video URL",
-        "ordinal" : 4,
-        "widget" : "Text",
-        "required" : false,
-        "summary" : false,
-        "title" : false
-      },
-      "DESCRIPTION" : {
-        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
-        "label" : "Description",
-        "description" : "Description",
-        "ordinal" : 2,
-        "widget" : "Text Area",
-        "required" : true,
-        "summary" : true,
-        "title" : false
+        "required" : true
       },
       "TITLE" : {
         "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
@@ -511,9 +511,9 @@
         "description" : "Title",
         "ordinal" : 1,
         "widget" : "Text",
-        "required" : true,
+        "title" : true,
         "summary" : false,
-        "title" : true
+        "required" : true
       },
       "TEXT" : {
         "id" : "7fb41aed-5fe3-49bc-8ae8-e500173a0279",
@@ -521,9 +521,9 @@
         "description" : "Text",
         "ordinal" : 5,
         "widget" : "HTML Editor",
-        "required" : true,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : true
       },
       "FILE" : {
         "id" : "0015d0c2-9c64-4032-b3c3-424a07d3614d",
@@ -531,9 +531,9 @@
         "description" : "File Path",
         "ordinal" : 3,
         "widget" : "File",
-        "required" : false,
+        "title" : false,
         "summary" : false,
-        "title" : false
+        "required" : false
       }
     },
     "owner" : "admin",
