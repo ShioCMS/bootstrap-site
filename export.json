@@ -5,7 +5,7 @@
     "date" : "2019-08-27T23:09Z",
     "description" : "Bootstrap Site",
     "url" : "teste",
-    "postTypeLayout" : "{\n    \"FOLDER\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT\"\n    }],\n    \"PT-ARTICLE\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_ARTICLE_LAYOUT\"\n    }]\n}\n",
+    "postTypeLayout" : "{\n    \"FOLDER\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT\"\n    }],\n    \"Article\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_ARTICLE_LAYOUT\"\n    }]\n}\n",
     "searchablePostTypes" : null,
     "owner" : "admin",
     "furl" : "bootstrap",
@@ -80,7 +80,7 @@
     "id" : "b06ebf34-9b1d-4393-8060-eda345069567",
     "date" : "2018-07-03T13:04Z",
     "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
-    "postType" : "PT-FOLDER-INDEX",
+    "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Folder Index",
       "PAGE-LAYOUT" : "570c199d-86cc-4005-b937-8839c81bcf6b",
@@ -93,7 +93,7 @@
     "id" : "5eca4d17-e3fa-49c9-a28f-f1a16ec9bb15",
     "date" : "2018-07-03T15:06Z",
     "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
-    "postType" : "PT-ARTICLE",
+    "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
       "DESCRIPTION" : "This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.",
@@ -108,7 +108,7 @@
     "id" : "dad673fd-c19d-43f8-8191-c6934a23150a",
     "date" : "2018-07-03T15:11Z",
     "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
-    "postType" : "PT-ARTICLE",
+    "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
       "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
@@ -123,7 +123,7 @@
     "id" : "d699ea67-4118-4f63-948c-4ec4bf7a1773",
     "date" : "2018-07-03T15:11Z",
     "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
-    "postType" : "PT-ARTICLE",
+    "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
       "DESCRIPTION" : "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
@@ -138,7 +138,7 @@
     "id" : "570c199d-86cc-4005-b937-8839c81bcf6b",
     "date" : "2018-07-03T14:52Z",
     "folder" : "ff94910e-7bf9-4ec3-8855-c739f0f481ad",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Bootstrap Default Channel Layout",
@@ -153,7 +153,7 @@
     "id" : "7cd6825d-825d-4d8c-ac8d-c7b17640cefc",
     "date" : "2018-07-03T15:07Z",
     "folder" : "ff94910e-7bf9-4ec3-8855-c739f0f481ad",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar objects ={\n    \"title\": shContent.system.title,\n    \"description\": shContent.DESCRIPTION,\n    \"text\": shContent.TEXT,\n    \"theme\": shContent.theme\n    \n}\nvar html = template(objects);\n\nhtml;",
       "DESCRIPTION" : "Bootstrap Article Layout",
@@ -168,7 +168,7 @@
     "id" : "4092a7df-a3b8-44a7-9ed4-fc43c176c6b6",
     "date" : "2018-07-06T13:13Z",
     "folder" : "2e71cbb4-a9ef-40c7-a575-27939061e2aa",
-    "postType" : "PT-REGION",
+    "postType" : "Region",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nHandlebars.registerHelper('file_url', function(object) {\n  return new Handlebars.SafeString(\n    \"/store/file_source/\" + shContent.site.system.title + object\n  );\n});\n\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
       "DESCRIPTION" : "Bootstrap Navigation Region",
@@ -182,9 +182,9 @@
     "id" : "b4726da2-2988-4c5d-ab19-8cdfbc5ebe37",
     "date" : "2018-07-03T14:48Z",
     "folder" : "2e71cbb4-a9ef-40c7-a575-27939061e2aa",
-    "postType" : "PT-REGION",
+    "postType" : "Region",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar query  = shObject.query(shContent.system.id, \"PT-ARTICLE\"); // Others > Banner Home\n\nvar forEach = Array.prototype.forEach;\n\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"title\": shPost.TITLE.strValue,\n        \"description\": shPost.DESCRIPTION.strValue,\n    //    \"image\": shObject.generatePostLink(shPost.IMAGE.strValue),\n        \"text\": shPost.TEXT.strValue,\n        \"link\": shObject.generateObjectLink(shPost.id.strValue)\n    }\n    posts.push(post);\n});\n\nvar objects = {\n    \"folder\": shContent,\n    \"posts\":  posts\n}\nvar html = template(objects);\nhtml",
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar query  = shObject.query(shContent.system.id, \"Article\"); // Others > Banner Home\n\nvar forEach = Array.prototype.forEach;\n\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"title\": shPost.TITLE.strValue,\n        \"description\": shPost.DESCRIPTION.strValue,\n    //    \"image\": shObject.generatePostLink(shPost.IMAGE.strValue),\n        \"text\": shPost.TEXT.strValue,\n        \"link\": shObject.generateObjectLink(shPost.id.strValue)\n    }\n    posts.push(post);\n});\n\nvar objects = {\n    \"folder\": shContent,\n    \"posts\":  posts\n}\nvar html = template(objects);\nhtml",
       "DESCRIPTION" : "Bootstrap Content List Region",
       "TITLE" : "BOOTSTRAP_CONTENT_LIST_REGION",
       "HTML" : "<div class=\"card-columns\">\n {{#each this.posts}}    \n  <div class=\"card\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{this.title}}</h5>\n      <p class=\"card-text\">{{this.description}}</p>\n       <a href=\"{{this.link}}\" class=\"btn btn-primary\">Read More</a>\n    </div>\n  </div>\n  {{/each}}\n</div>"
@@ -196,7 +196,7 @@
     "id" : "bb5b6c2d-9379-47a9-816d-82be3bc3d0d1",
     "date" : "2018-07-03T13:03Z",
     "folder" : "1d18d953-2c16-4274-8ff5-262fc511d549",
-    "postType" : "PT-THEME",
+    "postType" : "Theme",
     "fields" : {
       "JAVASCRIPT" : null,
       "CSS" : null,
@@ -210,7 +210,7 @@
     "id" : "b492a16a-200f-4081-bccf-fab631443ec9",
     "date" : "2018-07-03T13:18Z",
     "folder" : "c9db8565-ab48-45a5-9e20-d24beade8bd7",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "bootstrap-logo.jpg"
     },
@@ -221,7 +221,7 @@
   "postTypes" : [ {
     "id" : "61a2d491-0933-418c-b1cb-aae042d5e089",
     "date" : "2018-06-14T13:53Z",
-    "name" : "PT-FILE",
+    "name" : "File",
     "label" : "File",
     "description" : "File Post Type",
     "fields" : {
@@ -242,7 +242,7 @@
   }, {
     "id" : "301a6645-a3b2-4644-b7c6-ec6554aef8d1",
     "date" : "2019-07-11T01:27Z",
-    "name" : "PT-REGION",
+    "name" : "Region",
     "label" : "Region",
     "description" : "Region Post Type",
     "fields" : {
@@ -318,7 +318,7 @@
   }, {
     "id" : "2ec0d911-e64f-41e5-a5d8-e0dba41a5b3b",
     "date" : "2018-06-14T13:53Z",
-    "name" : "PT-THEME",
+    "name" : "Theme",
     "label" : "Theme",
     "description" : "Theme Post Type",
     "fields" : {
@@ -372,7 +372,7 @@
   }, {
     "id" : "10edbb4c-b2fa-481b-be8c-404e44050167",
     "date" : "2019-07-11T00:31Z",
-    "name" : "PT-FOLDER-INDEX",
+    "name" : "FolderIndex",
     "label" : "Folder Index",
     "description" : "Folder Index Post Type",
     "fields" : {
@@ -505,7 +505,7 @@
   }, {
     "id" : "3d349925-3509-463d-ab72-b0006d0b463e",
     "date" : "2018-06-14T13:53Z",
-    "name" : "PT-PAGE-LAYOUT",
+    "name" : "PageLayout",
     "label" : "Page Layout",
     "description" : "Page Layout Post Type",
     "fields" : {
@@ -570,7 +570,7 @@
   }, {
     "id" : "cd710f35-e838-41e2-943c-1c93f0543ebe",
     "date" : "2019-07-11T01:25Z",
-    "name" : "PT-ARTICLE",
+    "name" : "Article",
     "label" : "Article",
     "description" : "Article Post Type",
     "fields" : {
