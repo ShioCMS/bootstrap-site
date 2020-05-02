@@ -1,98 +1,98 @@
 {
   "sites" : [ {
-    "id" : "378b9fe6-82c7-4c9d-b87c-05cf7df61553",
+    "id" : "13ebe7de-c170-48e5-81e2-3848b2e0c55b",
     "name" : "Bootstrap",
-    "date" : "2019-08-27T23:09Z",
-    "description" : "Bootstrap Site",
-    "url" : "teste",
+    "date" : "2020-05-01T23:56Z",
+    "description" : "Bootstrap",
+    "url" : null,
     "postTypeLayout" : "{\n    \"FOLDER\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT\"\n    }],\n    \"Article\": [{\n        \"format\": \"default\",\n        \"layout\": \"BOOTSTRAP_ARTICLE_LAYOUT\"\n    }]\n}\n",
     "searchablePostTypes" : null,
     "owner" : "admin",
     "furl" : "bootstrap",
-    "rootFolders" : [ "2a64665a-8ff6-457e-aaff-d40fdf240d40", "e5df57f7-8565-4238-8eac-83675893e4b7", "9992d73c-3d10-4f05-b942-21a910573d1b" ]
+    "rootFolders" : [ "82141cb4-0d4f-4467-a110-25151e13299f", "3c919672-4a05-4e4b-a993-cfbb67568035", "97145fe3-027a-4283-b846-43717d7ef58b" ]
   } ],
   "folders" : [ {
-    "id" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
+    "id" : "82141cb4-0d4f-4467-a110-25151e13299f",
     "date" : "2018-07-03T13:00Z",
     "name" : "Home",
     "parentFolder" : null,
     "owner" : "admin",
     "furl" : "home",
-    "position" : 0
+    "position" : 1
   }, {
-    "id" : "e5df57f7-8565-4238-8eac-83675893e4b7",
+    "id" : "3c919672-4a05-4e4b-a993-cfbb67568035",
     "date" : "2018-07-03T13:00Z",
     "name" : "Themes",
     "parentFolder" : null,
     "owner" : "admin",
     "furl" : "themes",
-    "position" : 0
+    "position" : 2
   }, {
-    "id" : "321896b5-4eea-4e6f-b35d-c9b72f27aa0d",
+    "id" : "56572902-82f8-4a27-8709-7884c0eee1cb",
     "date" : "2018-07-03T13:00Z",
     "name" : "Bootstrap",
-    "parentFolder" : "e5df57f7-8565-4238-8eac-83675893e4b7",
+    "parentFolder" : "3c919672-4a05-4e4b-a993-cfbb67568035",
     "owner" : "admin",
     "furl" : "bootstrap",
     "position" : 0
   }, {
-    "id" : "ff94910e-7bf9-4ec3-8855-c739f0f481ad",
+    "id" : "86175e31-300b-4130-8cfd-6bd747ed2000",
     "date" : "2018-07-03T13:00Z",
     "name" : "Layouts",
-    "parentFolder" : "321896b5-4eea-4e6f-b35d-c9b72f27aa0d",
+    "parentFolder" : "56572902-82f8-4a27-8709-7884c0eee1cb",
     "owner" : "admin",
     "furl" : "layouts",
-    "position" : 0
+    "position" : 1
   }, {
-    "id" : "2e71cbb4-a9ef-40c7-a575-27939061e2aa",
+    "id" : "6efd6720-0f74-4121-a442-faa00d98dc7f",
     "date" : "2018-07-03T13:00Z",
     "name" : "Regions",
-    "parentFolder" : "321896b5-4eea-4e6f-b35d-c9b72f27aa0d",
+    "parentFolder" : "56572902-82f8-4a27-8709-7884c0eee1cb",
     "owner" : "admin",
     "furl" : "regions",
-    "position" : 0
+    "position" : 2
   }, {
-    "id" : "1d18d953-2c16-4274-8ff5-262fc511d549",
+    "id" : "56d21666-114a-456f-b739-138b48e8d79e",
     "date" : "2018-07-03T13:01Z",
     "name" : "Appearance",
-    "parentFolder" : "321896b5-4eea-4e6f-b35d-c9b72f27aa0d",
+    "parentFolder" : "56572902-82f8-4a27-8709-7884c0eee1cb",
     "owner" : "admin",
     "furl" : "appearance",
-    "position" : 0
+    "position" : 3
   }, {
-    "id" : "9992d73c-3d10-4f05-b942-21a910573d1b",
+    "id" : "97145fe3-027a-4283-b846-43717d7ef58b",
     "date" : "2018-07-03T13:11Z",
     "name" : "Assets",
     "parentFolder" : null,
     "owner" : "admin",
     "furl" : "assets",
-    "position" : 0
+    "position" : 3
   }, {
-    "id" : "c9db8565-ab48-45a5-9e20-d24beade8bd7",
+    "id" : "f9d263bd-f588-4e22-93aa-cf6fe25eecf0",
     "date" : "2018-07-03T13:11Z",
     "name" : "brand",
-    "parentFolder" : "9992d73c-3d10-4f05-b942-21a910573d1b",
+    "parentFolder" : "97145fe3-027a-4283-b846-43717d7ef58b",
     "owner" : "admin",
     "furl" : "brand",
     "position" : 0
   } ],
   "posts" : [ {
-    "id" : "b06ebf34-9b1d-4393-8060-eda345069567",
+    "id" : "1913f0b1-6398-42ac-b108-ca350c75dda5",
     "date" : "2018-07-03T13:04Z",
-    "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
+    "folder" : "82141cb4-0d4f-4467-a110-25151e13299f",
     "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Folder Index",
-      "PAGE-LAYOUT" : "570c199d-86cc-4005-b937-8839c81bcf6b",
+      "PAGE-LAYOUT" : "0f683d28-15da-4ebd-be15-ff3675139874",
       "TITLE" : "index"
     },
     "owner" : "admin",
     "furl" : "index",
     "position" : 0
   }, {
-    "id" : "5eca4d17-e3fa-49c9-a28f-f1a16ec9bb15",
+    "id" : "7e0aa1ed-33f1-467d-bedf-58f24fc3d933",
     "date" : "2018-07-03T15:06Z",
-    "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
+    "folder" : "82141cb4-0d4f-4467-a110-25151e13299f",
     "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
@@ -105,9 +105,9 @@
     "furl" : "sample-blog-post",
     "position" : 0
   }, {
-    "id" : "dad673fd-c19d-43f8-8191-c6934a23150a",
+    "id" : "8f5b599c-3a9d-41ae-93f6-68deeb6e4fe8",
     "date" : "2018-07-03T15:11Z",
-    "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
+    "folder" : "82141cb4-0d4f-4467-a110-25151e13299f",
     "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
@@ -120,9 +120,9 @@
     "furl" : "new-feature",
     "position" : 0
   }, {
-    "id" : "d699ea67-4118-4f63-948c-4ec4bf7a1773",
+    "id" : "c917e472-7fa5-41b6-a54b-887f55488cfd",
     "date" : "2018-07-03T15:11Z",
-    "folder" : "2a64665a-8ff6-457e-aaff-d40fdf240d40",
+    "folder" : "82141cb4-0d4f-4467-a110-25151e13299f",
     "postType" : "Article",
     "fields" : {
       "VIDEO" : null,
@@ -135,14 +135,14 @@
     "furl" : "another-blog-post",
     "position" : 0
   }, {
-    "id" : "570c199d-86cc-4005-b937-8839c81bcf6b",
-    "date" : "2018-07-03T14:52Z",
-    "folder" : "ff94910e-7bf9-4ec3-8855-c739f0f481ad",
+    "id" : "0f683d28-15da-4ebd-be15-ff3675139874",
+    "date" : "2020-05-01T23:59Z",
+    "folder" : "86175e31-300b-4130-8cfd-6bd747ed2000",
     "postType" : "PageLayout",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
+      "JAVASCRIPT" : "var template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Bootstrap Default Channel Layout",
-      "THEME" : "bb5b6c2d-9379-47a9-816d-82be3bc3d0d1",
+      "THEME" : "676fc86f-46bd-49e0-b223-1c4040e6cbef",
       "HTML" : "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n\n    <title>Hello, world!</title>\n  </head>\n  <body>\n    <div sh-region=\"BOOTSTRAP_NAV_REGION\"> </div>\n    <div sh-region=\"BOOTSTRAP_CONTENT_LIST_REGION\" style=\"margin:20px\"></div>\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>",
       "TITLE" : "BOOTSTRAP_DEFAULT_CHANNEL_LAYOUT"
     },
@@ -150,14 +150,14 @@
     "furl" : "bootstrap_default_channel_layout",
     "position" : 0
   }, {
-    "id" : "7cd6825d-825d-4d8c-ac8d-c7b17640cefc",
-    "date" : "2018-07-03T15:07Z",
-    "folder" : "ff94910e-7bf9-4ec3-8855-c739f0f481ad",
+    "id" : "1d140cf6-004d-436f-8263-57dfd84e3d24",
+    "date" : "2020-05-01T23:59Z",
+    "folder" : "86175e31-300b-4130-8cfd-6bd747ed2000",
     "postType" : "PageLayout",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar objects ={\n    \"title\": shContent.system.title,\n    \"description\": shContent.DESCRIPTION,\n    \"text\": shContent.TEXT,\n    \"theme\": shContent.theme\n    \n}\nvar html = template(objects);\n\nhtml;",
+      "JAVASCRIPT" : "var template = Handlebars.compile(html);\n\nvar objects ={\n    \"title\": shContent.system.title,\n    \"description\": shContent.DESCRIPTION,\n    \"text\": shContent.TEXT,\n    \"theme\": shContent.theme\n    \n}\nvar html = template(objects);\n\nhtml;",
       "DESCRIPTION" : "Bootstrap Article Layout",
-      "THEME" : "bb5b6c2d-9379-47a9-816d-82be3bc3d0d1",
+      "THEME" : "676fc86f-46bd-49e0-b223-1c4040e6cbef",
       "TITLE" : "BOOTSTRAP_ARTICLE_LAYOUT",
       "HTML" : "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n    <link href=\"https://getbootstrap.com/docs/4.1/examples/blog/blog.css\" rel=\"stylesheet\">\n    <title>Hello, world!</title>\n  </head>\n  <body>\n    <div sh-region=\"BOOTSTRAP_NAV_REGION\"> </div>\n    <div class=\"blog-post\" style=\"margin:20px\">\n        <h2 class=\"blog-post-title\">{{title}}</h2>\n        <p>{{{description}}}</p>\n        <hr>\n        {{{text}}}\n    </div>\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>"
     },
@@ -165,37 +165,41 @@
     "furl" : "bootstrap_article_layout",
     "position" : 0
   }, {
-    "id" : "4092a7df-a3b8-44a7-9ed4-fc43c176c6b6",
-    "date" : "2018-07-06T13:13Z",
-    "folder" : "2e71cbb4-a9ef-40c7-a575-27939061e2aa",
+    "id" : "0707030a-af5d-463b-a66b-be8ab8c71caf",
+    "date" : "2020-05-02T00:01Z",
+    "folder" : "6efd6720-0f74-4121-a442-faa00d98dc7f",
     "postType" : "Region",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nHandlebars.registerHelper('file_url', function(object) {\n  return new Handlebars.SafeString(\n    \"/store/file_source/\" + shContent.site.system.title + object\n  );\n});\n\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
+      "JAVASCRIPT" : "Handlebars.registerHelper('file_url', function(object) {\n  return new Handlebars.SafeString(\n    \"/store/file_source/\" + shContent.site.system.title + object\n  );\n});\n\nvar template = Handlebars.compile(html);\nvar navigation = shObject.navigation(shContent.site.system.title, true);\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar object = {\n    \"siteName\": shContent.site.system.title,\n    \"folders\": folders    \n}\nvar html = template(object);\nhtml;",
+      "CACHE_TAB" : null,
       "DESCRIPTION" : "Bootstrap Navigation Region",
       "TITLE" : "BOOTSTRAP_NAV_REGION",
-      "HTML" : "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\"> <img src=\"{{file_url '/Assets/brand/bootstrap-logo.jpg'}}\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">{{this.siteName}} </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav mr-auto\"> \n            {{#each this.folders}} \n                {{#if this.current}}\n                    <li class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}  {{#noop}}alexandre{{/noop}}</a></li>\n                {{else}}\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{/if}}\n            {{/each}}\n            \n         \n        </ul>\n    </div>\n</nav>"
+      "HTML" : "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\"> <img src=\"{{file_url '/Assets/brand/bootstrap-logo.jpg'}}\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">{{this.siteName}} </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav mr-auto\"> \n            {{#each this.folders}} \n                {{#if this.current}}\n                    <li class=\"nav-item active\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}  {{#noop}}alexandre{{/noop}}</a></li>\n                {{else}}\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"{{this.link}}\">{{this.name}}</a></li>\n                {{/if}}\n            {{/each}}\n            \n         \n        </ul>\n    </div>\n</nav>",
+      "CACHED" : "no"
     },
     "owner" : "admin",
     "furl" : "bootstrap_nav_region",
     "position" : 0
   }, {
-    "id" : "b4726da2-2988-4c5d-ab19-8cdfbc5ebe37",
-    "date" : "2018-07-03T14:48Z",
-    "folder" : "2e71cbb4-a9ef-40c7-a575-27939061e2aa",
+    "id" : "661da367-ced6-4e1f-aba1-6980cfd90e3d",
+    "date" : "2020-05-02T00:01Z",
+    "folder" : "6efd6720-0f74-4121-a442-faa00d98dc7f",
     "postType" : "Region",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar shObject = viglet.shiohara.shobject;\n\nvar query  = shObject.query(shContent.system.id, \"Article\"); // Others > Banner Home\n\nvar forEach = Array.prototype.forEach;\n\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"title\": shPost.TITLE.strValue,\n        \"description\": shPost.DESCRIPTION.strValue,\n    //    \"image\": shObject.generatePostLink(shPost.IMAGE.strValue),\n        \"text\": shPost.TEXT.strValue,\n        \"link\": shObject.generateObjectLink(shPost.id.strValue)\n    }\n    posts.push(post);\n});\n\nvar objects = {\n    \"folder\": shContent,\n    \"posts\":  posts\n}\nvar html = template(objects);\nhtml",
+      "JAVASCRIPT" : "var template = Handlebars.compile(html);\n\nvar query  = shObject.query(shContent.system.id, \"Article\"); // Others > Banner Home\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"title\": shPost.TITLE.strValue,\n        \"description\": shPost.DESCRIPTION.strValue,\n    //    \"image\": shObject.generatePostLink(shPost.IMAGE.strValue),\n        \"text\": shPost.TEXT.strValue,\n        \"link\": shObject.generateObjectLink(shPost.id.strValue)\n    }\n    posts.push(post);\n});\n\nvar objects = {\n    \"folder\": shContent,\n    \"posts\":  posts\n}\nvar html = template(objects);\nhtml",
+      "CACHE_TAB" : null,
       "DESCRIPTION" : "Bootstrap Content List Region",
       "TITLE" : "BOOTSTRAP_CONTENT_LIST_REGION",
-      "HTML" : "<div class=\"card-columns\">\n {{#each this.posts}}    \n  <div class=\"card\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{this.title}}</h5>\n      <p class=\"card-text\">{{this.description}}</p>\n       <a href=\"{{this.link}}\" class=\"btn btn-primary\">Read More</a>\n    </div>\n  </div>\n  {{/each}}\n</div>"
+      "HTML" : "<div class=\"card-columns\">\n {{#each this.posts}}    \n  <div class=\"card\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{this.title}}</h5>\n      <p class=\"card-text\">{{this.description}}</p>\n       <a href=\"{{this.link}}\" class=\"btn btn-primary\">Read More</a>\n    </div>\n  </div>\n  {{/each}}\n</div>",
+      "CACHED" : "no"
     },
     "owner" : "admin",
     "furl" : "bootstrap_content_list_region",
     "position" : 0
   }, {
-    "id" : "bb5b6c2d-9379-47a9-816d-82be3bc3d0d1",
+    "id" : "676fc86f-46bd-49e0-b223-1c4040e6cbef",
     "date" : "2018-07-03T13:03Z",
-    "folder" : "1d18d953-2c16-4274-8ff5-262fc511d549",
+    "folder" : "56d21666-114a-456f-b739-138b48e8d79e",
     "postType" : "Theme",
     "fields" : {
       "JAVASCRIPT" : null,
@@ -207,9 +211,9 @@
     "furl" : "bootstrap-theme",
     "position" : 0
   }, {
-    "id" : "b492a16a-200f-4081-bccf-fab631443ec9",
+    "id" : "b5a5f2d7-3466-47c7-82b7-750e36776f9f",
     "date" : "2018-07-03T13:18Z",
-    "folder" : "c9db8565-ab48-45a5-9e20-d24beade8bd7",
+    "folder" : "f9d263bd-f588-4e22-93aa-cf6fe25eecf0",
     "postType" : "File",
     "fields" : {
       "FILE" : "bootstrap-logo.jpg"
@@ -219,18 +223,63 @@
     "position" : 0
   } ],
   "postTypes" : [ {
-    "id" : "61a2d491-0933-418c-b1cb-aae042d5e089",
+    "id" : "3d349925-3509-463d-ab72-b0006d0b463e",
     "date" : "2018-06-14T13:53Z",
-    "name" : "File",
-    "label" : "File",
-    "description" : "File Post Type",
+    "name" : "PageLayout",
+    "namePlural" : "PageLayouts",
+    "label" : "Page Layout",
+    "description" : "Page Layout Post Type",
     "fields" : {
-      "FILE" : {
-        "id" : "077f8b1c-3fcd-4342-852a-7711245696b2",
-        "label" : "File Path",
-        "description" : "File Path",
+      "JAVASCRIPT" : {
+        "id" : "924a1f01-132e-4696-a628-9c3de25e7e04",
+        "label" : "Javascript",
+        "description" : "Javascript",
+        "ordinal" : 4,
+        "widget" : "Ace Editor - Javascript",
+        "widgetSettings" : null,
+        "required" : true,
+        "title" : false,
+        "summary" : false
+      },
+      "DESCRIPTION" : {
+        "id" : "db01cf5b-836f-49c7-9e7a-19bcac221978",
+        "label" : "Description",
+        "description" : "Description",
+        "ordinal" : 2,
+        "widget" : "Text",
+        "widgetSettings" : null,
+        "required" : true,
+        "title" : false,
+        "summary" : true
+      },
+      "THEME" : {
+        "id" : "a5d27dcd-1372-43c5-950c-e6cbee1807da",
+        "label" : "Theme",
+        "description" : "Theme",
+        "ordinal" : 3,
+        "widget" : "Content Select",
+        "widgetSettings" : null,
+        "required" : true,
+        "title" : false,
+        "summary" : false
+      },
+      "HTML" : {
+        "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
+        "label" : "HTML",
+        "description" : "HTML",
+        "ordinal" : 5,
+        "widget" : "Ace Editor - HTML",
+        "widgetSettings" : null,
+        "required" : true,
+        "title" : false,
+        "summary" : false
+      },
+      "TITLE" : {
+        "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
+        "label" : "Title",
+        "description" : "Title",
         "ordinal" : 1,
-        "widget" : "File",
+        "widget" : "Text",
         "widgetSettings" : null,
         "required" : true,
         "title" : true,
@@ -240,9 +289,76 @@
     "owner" : "admin",
     "system" : true
   }, {
+    "id" : "cd710f35-e838-41e2-943c-1c93f0543ebe",
+    "date" : "2019-07-11T01:25Z",
+    "name" : "Article",
+    "namePlural" : "Articles",
+    "label" : "Article",
+    "description" : "Article Post Type",
+    "fields" : {
+      "VIDEO" : {
+        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
+        "label" : "Video URL",
+        "description" : "Video URL",
+        "ordinal" : 4,
+        "widget" : "Text",
+        "widgetSettings" : "null",
+        "required" : false,
+        "title" : false,
+        "summary" : false
+      },
+      "DESCRIPTION" : {
+        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
+        "label" : "Description",
+        "description" : "Description",
+        "ordinal" : 2,
+        "widget" : "Text Area",
+        "widgetSettings" : "null",
+        "required" : true,
+        "title" : false,
+        "summary" : true
+      },
+      "TEXT" : {
+        "id" : "7fb41aed-5fe3-49bc-8ae8-e500173a0279",
+        "label" : "Text",
+        "description" : "Text",
+        "ordinal" : 5,
+        "widget" : "HTML Editor",
+        "widgetSettings" : "null",
+        "required" : true,
+        "title" : false,
+        "summary" : false
+      },
+      "TITLE" : {
+        "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
+        "label" : "Title",
+        "description" : "Title",
+        "ordinal" : 1,
+        "widget" : "Text",
+        "widgetSettings" : "null",
+        "required" : true,
+        "title" : true,
+        "summary" : false
+      },
+      "FILE" : {
+        "id" : "0015d0c2-9c64-4032-b3c3-424a07d3614d",
+        "label" : "File Path",
+        "description" : "File Path",
+        "ordinal" : 3,
+        "widget" : "File",
+        "widgetSettings" : "null",
+        "required" : false,
+        "title" : false,
+        "summary" : false
+      }
+    },
+    "owner" : "admin",
+    "system" : false
+  }, {
     "id" : "301a6645-a3b2-4644-b7c6-ec6554aef8d1",
     "date" : "2019-07-11T01:27Z",
     "name" : "Region",
+    "namePlural" : "Regions",
     "label" : "Region",
     "description" : "Region Post Type",
     "fields" : {
@@ -319,6 +435,7 @@
     "id" : "2ec0d911-e64f-41e5-a5d8-e0dba41a5b3b",
     "date" : "2018-06-14T13:53Z",
     "name" : "Theme",
+    "namePlural" : "Themes",
     "label" : "Theme",
     "description" : "Theme Post Type",
     "fields" : {
@@ -370,9 +487,32 @@
     "owner" : "admin",
     "system" : true
   }, {
+    "id" : "61a2d491-0933-418c-b1cb-aae042d5e089",
+    "date" : "2018-06-14T13:53Z",
+    "name" : "File",
+    "namePlural" : "Files",
+    "label" : "File",
+    "description" : "File Post Type",
+    "fields" : {
+      "FILE" : {
+        "id" : "077f8b1c-3fcd-4342-852a-7711245696b2",
+        "label" : "File Path",
+        "description" : "File Path",
+        "ordinal" : 1,
+        "widget" : "File",
+        "widgetSettings" : null,
+        "required" : true,
+        "title" : true,
+        "summary" : false
+      }
+    },
+    "owner" : "admin",
+    "system" : true
+  }, {
     "id" : "10edbb4c-b2fa-481b-be8c-404e44050167",
     "date" : "2019-07-11T00:31Z",
     "name" : "FolderIndex",
+    "namePlural" : "FolderIndexes",
     "label" : "Folder Index",
     "description" : "Folder Index Post Type",
     "fields" : {
@@ -466,17 +606,6 @@
         "title" : false,
         "summary" : false
       },
-      "IS_VISIBLE_PAGE" : {
-        "id" : "72b8e0d7-03f6-4a94-8f00-a7d2164b3522",
-        "label" : "Is Visable Page?",
-        "description" : null,
-        "ordinal" : 4,
-        "widget" : "Combo Box",
-        "widgetSettings" : "{\"choices\":\"yes: Yes\\nno: No\"}",
-        "required" : false,
-        "title" : false,
-        "summary" : false
-      },
       "PAGE-LAYOUT" : {
         "id" : "da6dbfeb-34a4-4019-a09d-6b457a1120d3",
         "label" : "Page Layout",
@@ -485,6 +614,17 @@
         "widget" : "Content Select",
         "widgetSettings" : "null",
         "required" : true,
+        "title" : false,
+        "summary" : false
+      },
+      "IS_VISIBLE_PAGE" : {
+        "id" : "72b8e0d7-03f6-4a94-8f00-a7d2164b3522",
+        "label" : "Is Visible Page?",
+        "description" : null,
+        "ordinal" : 4,
+        "widget" : "Combo Box",
+        "widgetSettings" : "{\"choices\":\"yes: Yes\\nno: No\"}",
+        "required" : false,
         "title" : false,
         "summary" : false
       },
@@ -502,135 +642,5 @@
     },
     "owner" : "admin",
     "system" : true
-  }, {
-    "id" : "3d349925-3509-463d-ab72-b0006d0b463e",
-    "date" : "2018-06-14T13:53Z",
-    "name" : "PageLayout",
-    "label" : "Page Layout",
-    "description" : "Page Layout Post Type",
-    "fields" : {
-      "JAVASCRIPT" : {
-        "id" : "924a1f01-132e-4696-a628-9c3de25e7e04",
-        "label" : "Javascript",
-        "description" : "Javascript",
-        "ordinal" : 4,
-        "widget" : "Ace Editor - Javascript",
-        "widgetSettings" : null,
-        "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "DESCRIPTION" : {
-        "id" : "db01cf5b-836f-49c7-9e7a-19bcac221978",
-        "label" : "Description",
-        "description" : "Description",
-        "ordinal" : 2,
-        "widget" : "Text",
-        "widgetSettings" : null,
-        "required" : true,
-        "title" : false,
-        "summary" : true
-      },
-      "THEME" : {
-        "id" : "a5d27dcd-1372-43c5-950c-e6cbee1807da",
-        "label" : "Theme",
-        "description" : "Theme",
-        "ordinal" : 3,
-        "widget" : "Content Select",
-        "widgetSettings" : null,
-        "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "HTML" : {
-        "id" : "c02c23a9-51bb-4ddb-ab3d-252da57f9450",
-        "label" : "HTML",
-        "description" : "HTML",
-        "ordinal" : 5,
-        "widget" : "Ace Editor - HTML",
-        "widgetSettings" : null,
-        "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "TITLE" : {
-        "id" : "d40eb842-55bd-48fa-9329-77d4c22644e6",
-        "label" : "Title",
-        "description" : "Title",
-        "ordinal" : 1,
-        "widget" : "Text",
-        "widgetSettings" : null,
-        "required" : true,
-        "title" : true,
-        "summary" : false
-      }
-    },
-    "owner" : "admin",
-    "system" : true
-  }, {
-    "id" : "cd710f35-e838-41e2-943c-1c93f0543ebe",
-    "date" : "2019-07-11T01:25Z",
-    "name" : "Article",
-    "label" : "Article",
-    "description" : "Article Post Type",
-    "fields" : {
-      "DESCRIPTION" : {
-        "id" : "0f46d6f0-e589-44ca-a246-3fd6c7ffe4b2",
-        "label" : "Description",
-        "description" : "Description",
-        "ordinal" : 2,
-        "widget" : "Text Area",
-        "widgetSettings" : "null",
-        "required" : true,
-        "title" : false,
-        "summary" : true
-      },
-      "VIDEO" : {
-        "id" : "c9f329fe-8d5c-43d4-be93-c25df72fc0fd",
-        "label" : "Video URL",
-        "description" : "Video URL",
-        "ordinal" : 4,
-        "widget" : "Text",
-        "widgetSettings" : "null",
-        "required" : false,
-        "title" : false,
-        "summary" : false
-      },
-      "TEXT" : {
-        "id" : "7fb41aed-5fe3-49bc-8ae8-e500173a0279",
-        "label" : "Text",
-        "description" : "Text",
-        "ordinal" : 5,
-        "widget" : "HTML Editor",
-        "widgetSettings" : "null",
-        "required" : true,
-        "title" : false,
-        "summary" : false
-      },
-      "TITLE" : {
-        "id" : "c0c52b1e-08f4-4ae3-847c-a67e2f3712c0",
-        "label" : "Title",
-        "description" : "Title",
-        "ordinal" : 1,
-        "widget" : "Text",
-        "widgetSettings" : "null",
-        "required" : true,
-        "title" : true,
-        "summary" : false
-      },
-      "FILE" : {
-        "id" : "0015d0c2-9c64-4032-b3c3-424a07d3614d",
-        "label" : "File Path",
-        "description" : "File Path",
-        "ordinal" : 3,
-        "widget" : "File",
-        "widgetSettings" : "null",
-        "required" : false,
-        "title" : false,
-        "summary" : false
-      }
-    },
-    "owner" : "admin",
-    "system" : false
   } ]
 }
